@@ -1,0 +1,26 @@
+{
+  "name": "k-blog",
+  "version": "1.0.0",
+  "description": "koa2 sequelize postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunrain990/k-blog.git"
+  },
+  "keywords": [],
+  "author": "Kevin <409747494@qq.com> (http://go4.so/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunrain990/k-blog/issues"
+  },
+  "homepage": "https://github.com/sunrain990/k-blog#readme",
+  "dependencies": {
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.31.2",
+    "sequelize-auto": "^0.4.29"
+  }
+}
