@@ -16,7 +16,7 @@ Tips: When using webstorm as ur editor, u need to exclude the folder of node_mod
 ## initialize project
 1. <code>git clone https://github.com/sunrain990/k-blog</code>
 2. make package.json
-&emsp;&emsp; > <code> npm init -f</code>
+> <code> npm init -f</code> &emsp;&emsp;
 3. create files such as
 4. .gitignore (exclude git files)
 5. .sequelizerc (config sequelize db server path)
