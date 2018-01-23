@@ -37,8 +37,8 @@ Tips: When using webstorm as ur editor, u need to exclude the folder of node_mod
 > sequelize db:migrate
 
  sequelize-auto is based on sequelize to dump or restore dbs, also it can dump models from exist dbs
-> * dump: ./node_modules/.bin/sequelize-auto -o "./dbserver/im_export/sq_models" -t core_ruleng_model -s faast -d ORION_BS -h localhost -u postgres -p 5432 -x admin -e postgres
-> * dump: sequelize-auto -o "./sq_models" -t core_ruleng_fact -s faast -d CRONOS_CRISIS -h localhost -u postgres -p 5432 -x admin -e postgres
+> * dump: <code>./node_modules/.bin/sequelize-auto -o "./dbserver/im_export/sq_models" -t core_ruleng_model -s faast -d ORION_BS -h localhost -u postgres -p 5432 -x admin -e postgres</code>
+> * dump: <code>sequelize-auto -o "./sq_models" -t core_ruleng_fact -s faast -d CRONOS_CRISIS -h localhost -u postgres -p 5432 -x admin -e postgres</code>
 > * restore(initialize): u can use sync()
 
 
