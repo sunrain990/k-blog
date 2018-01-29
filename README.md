@@ -42,5 +42,9 @@ Tips: When using webstorm as ur editor, u need to exclude the folder of node_mod
 > * restore(initialize): u can use sync()
 
 
+## src koa2 code
+> cnpm i koa koa-router koa-static koa-xml-body koa-bodyparser koa-views koa-session koa-compress koa-onerror -S
+> cnpm i bluebird socket.io -S
+
 
 
