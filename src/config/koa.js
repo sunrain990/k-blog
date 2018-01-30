@@ -49,9 +49,6 @@ module.exports = function(app) {
     // responseTime
     app.use(responseTime());
 
-    console.log(path.resolve( __dirname,  staticPath), '- - -', path.join(__dirname, viewPath))
-
-
     app.use(views(path.resolve(__dirname, viewPath), {
         extension: 'ejs'
     }))

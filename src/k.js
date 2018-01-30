@@ -22,8 +22,6 @@ require('./routes')(app)
 // app.use(router.allowedMethods());
 
 
-
-
 const port = process.env.PORT || 1314
 
 const server = require('http').Server(app.callback());

@@ -6,20 +6,12 @@ var Router = require('koa-router');
 function register (app) {
     var router = new Router();
 
-    router.get('/', async(ctx) => {
+    router.get('/:id', async(ctx) => {
         // ctx.body = 'Home Page';
-        await ctx.render('index')
-    }); // responds to "/"
-
-    // router.get('/ajaxtest', function *(){
-    //     console.log('ajaxtest')
-    //     this.body = 'Home Page';
-    // }); // responds to "/"
-    //
-    // router.post('/abc', function *(){
-    //     console.log(this.jwt_auth_result,' this is - - -result');
-    //     this.body = 'Home Page';
-    // }); // responds to "/"
+        ctx.body = {
+            id: ctx.params.id
+        }
+    });
 
     app.use(router.routes());
     app.use(router.allowedMethods());
