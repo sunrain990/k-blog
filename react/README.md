@@ -29,3 +29,5 @@ const HelloWorld = (props) => {
 
 
 vanilla js -> jQuery -> React -> React + Redux
+
+github.com/coryhouse/pluralsight-redux-starter/tree/master/src/api
